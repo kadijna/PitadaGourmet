@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitada Gourmet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="ico.png" type="image/png">
+</head>
+
+<body id="home">
+    <header id="top" class="full-container">
+        <div class="row h-row1">
+
+            <div id="wrapper-header">
+
+                <div id="logo" class="col">
+                    <h1><a href="index.html" title="Página Inicial">Pitada Gourmet</a></h1>
+                </div>
+
+                <div id="search" class="col5 m-col6 m-l-space1 hide-p-down">
+                    <input type="text" placeholder="Buscar Receita">
+                </div>
+
+                <!-- div/#search -->
+
+                <div id="top-buttons" class="col">
+                    <div id="modal-search" class="hide-m-up hide-p-up">
+                        <a href="#" class="btn-modal"><span class="icon-lupa2"></span></a>
+                    </div>
+                    <a id="carrinho" href="carrinho.html" class="icon-carrinho"></a>
+                    <button id="menu-toggle" class="icon-menu3"></button>
+                </div>
+                <!-- div/#menu-toggle -->
+                <div class="row hide-m-up hide-p-up">
+                    <div id="abrirModal" class="modal hide col12">
+                        <input type="text" placeholder="Buscar Receita">
+                    </div>
+                </div>
+            </div>
+            <!-- /div#wrapper-header -->
+
+        </div>
+        <!-- /.row -->
+    </header>
+    <!-- /header#top -->
+
+    <aside id="menu" class="col7 p-col5 m-col3 g-col2 t-space1">
+        <div class="row h-row11 n-logado">
+            <nav>
+                <ul class="off">
+                    <li><a href="cadastro.html">Cadastro </a></li>
+                    <li><a href="login.html">Login </a></li>
+                    <li><a href="receitas.html">Receitas </a></li>
+                    <li><a href="ingredientes.html">Ingredientes</a></li>
+                </ul>
+
+                <div class="category-ingrediente hide-p-down">
+                    <nav>
+                        <span id="titmenu">Receitas mais vistas</span>
+                        <ul>
+                            <li><a href="receita.html">Pudim de Fambroesa</a></li>
+                            <li><a href="#">Bolo Kit Kat</a></li>
+                            <li><a href="#">Bolinho de Nutela</a></li>
+                            <li><a href="#">Macarrão 4 Queijos</a></li>
+                            <li><a href="#">Risoto de Frango</a></li>
+                            <li><a href="#">Manjar</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <div class="row h-row11 logado">
+            <nav>
+                <ul class="off">
+                    <li><span class="foto-perfil"></span></li>
+                    <li><a href="receitas.html">Receitas </a></li>
+                    <li><a href="ingredientes.html">Ingredientes </a></li>
+                    <li><a href="livro.html">Livro de Receitas</a></li>
+                    <li><a href="#n-logado"><span>Sair<i class="icon-sair"></i></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div id="home-content" class="full-container t-space1">
+
+        <section class="row h-row12">
+            <div class="banner-inicio col12">
+                <a href="#destaque" class="scroll"><span id="seta" class="icon-seta"></span></a>
+            </div>
+
+            <!-- /.banner-inicio -->
+        </section>
+
+    </div>
+
+
+    <div id="destaque" class="container">
+        <section class="row">
+            <div class="titulo-destaque">
+                <h1 class="perfil-nome">Destaques</h1>
+            </div>
+            <div class="destaque-content col12 m-col4">
+                <div class="destaque-image">
+                    <a href="receita.html"><img src="img/receitas/receita-thumb/pudim.jpg" alt="Pudim" title="Pudim de Framboesa"></a>
+                </div>
+                <div class="destaque-detail">
+                    <ul>
+                        <li>
+                            <h3><span class="cor-titulo"> Nome:</span> <span><a href="receita.html">Pudim de Framboesa</a></span></h3>
+                            <h4><span class="cor-titulo">Categoria:</span> <span><a href="#">Doces</a></span></h4>
+                            <p><span class="cor-titulo">Avaliação:</span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                            </p>
+                            <p><span class="cor-titulo">Autor:</span> <span><a href="#">Pedro Augusto</a></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="destaque-content col12 m-col4">
+                <div class="destaque-image">
+                    <a href="#"><img src="img/receitas/receita-thumb/bolo.jpg" alt="Bolo Kit Kat" title="Bolo Kit Kat"></a>
+                </div>
+                <div class="destaque-detail">
+                    <ul>
+                        <li>
+                            <h3><span class="cor-titulo"> Nome:</span> <span><a href="#">Bolo Kit Kat</a>
+                            </span></h3>
+                            <h4><span class="cor-titulo">Categoria:</span> <span><a href="#">Doces</a></span></h4>
+                            <p><span class="cor-titulo">Avaliação:</span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                            </p>
+                            <p><span class="cor-titulo">Autor:</span> <span><a href="#">Victor Silva</a></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="destaque-content col12 m-col4">
+                <div class="destaque-image">
+                    <a href="#"><img src="img/receitas/receita-thumb/manjar.jpg" alt="Manjar" title="Manjar"></a>
+                </div>
+                <div class="destaque-detail">
+                    <ul>
+                        <li>
+                            <h3><span class="cor-titulo"> Nome:</span> <span><a href="#">Manjar</a>
+                            </span></h3>
+                            <h4><span class="cor-titulo">Categoria:</span> <span><a href="#">Doces</a></span></h4>
+                            <p><span class="cor-titulo">Avaliação:</span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                            </p>
+                            <p><span class="cor-titulo">Autor:</span> <span><a href="#">Gisele Parras</a></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="destaque-content col12 m-col4">
+                <div class="destaque-image">
+                    <a href="#"><img src="img/receitas/receita-thumb/risoto.jpg" alt="Risoto" title="Risoto de Frango"></a>
+                </div>
+                <div class="destaque-detail">
+                    <ul>
+                        <li>
+                            <h3><span class="cor-titulo"> Nome:</span> <span><a href="receita.html">Risoto de Frango</a></span></h3>
+                            <h4><span class="cor-titulo">Categoria:</span> <span><a href="#">Salgados</a></span></h4>
+                            <p><span class="cor-titulo">Avaliação:</span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                            </p>
+                            <p><span class="cor-titulo">Autor:</span> <span><a href="#">Leandro P.</a></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="destaque-content col12 m-col4">
+                <div class="destaque-image">
+                    <a href="#"><img src="img/receitas/receita-thumb/bolinho.jpg" alt="Bolinho de Chuva" title="Bolinho de Chuva"></a>
+                </div>
+                <div class="destaque-detail">
+                    <ul>
+                        <li>
+                            <h3><span class="cor-titulo"> Nome:</span> <span><a href="#">Bolinho de Nutela</a>
+                            </span></h3>
+                            <h4><span class="cor-titulo">Categoria:</span> <span><a href="#">Doces</a></span></h4>
+                            <p><span class="cor-titulo">Avaliação:</span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                            </p>
+                            <p><span class="cor-titulo">Autor:</span> <span><a href="#">Rebeca Lins</a></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="destaque-content col12 m-col4">
+                <div class="destaque-image">
+                    <a href="#"><img src="img/receitas/receita-thumb/macarrao.jpg" alt="Macarrao" title="Macarrao"></a>
+                </div>
+                <div class="destaque-detail">
+                    <ul>
+                        <li>
+                            <h3><span class="cor-titulo"> Nome:</span> <span><a href="#">Macarrão 4 queijos</a>
+                            </span></h3>
+                            <h4><span class="cor-titulo">Categoria:</span> <span><a href="#">Massa</a></span></h4>
+                            <p><span class="cor-titulo">Avaliação:</span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                                <span class="icon-estrela active"></span>
+                            </p>
+                            <p><span class="cor-titulo">Autor:</span> <span><a href="#">Gustavo Dias</a></span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer id="footer-pincipal" class="full-container">
+        <div class="row">
+
+            <div class="col12">
+                <div class="col12 m-col4">
+                    <span class="footer-title">Sobre o Pitada Gourmet</span>
+                    <p>É uma plataforma de venda de ingredientes sob medida e consulta de receitas que oferece comodidade e facilidade para execução de pratos.</p>
+                </div>
+                <hr class="col12 hide-m-up">
+                <div class="col12 m-col4">
+                    <nav>
+                        <ul class="off">
+                            <li><a href="cadastro.html">Cadastro </a></li>
+                            <li><a href="login.html">Login </a></li>
+                            <li><a href="receitas.html">Receitas </a></li>
+                            <li><a href="ingredientes.html">Ingredientes </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <hr class="col12 hide-m-up">
+                <div class="col12 m-col4">
+                    <span class="footer-title">Contato<i class="icon-moto"></i></span>
+                    <address>
+                        <span>(81) 3927-9233</span><br>
+                        <span>(81) 9 9923-7333</span>
+                    </address>
+
+                    <div id="redes-sociais" class="row">
+                        <a href="#" class="icon-face"></a>
+                        <a href="#" class="icon-twitter"></a>
+                        <a href="#" class="icon-google"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sub-footer" class="col12">
+                <p>&copy; Copyright 2016 - Pitada gourmet, todos os direitos reservados. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

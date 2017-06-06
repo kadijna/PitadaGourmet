@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pudim de Framboesa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="ico.png" type="image/png">
+</head>
+
+<body id="receita">
+    <header id="top" class="full-container">
+        <div class="row h-row1">
+
+            <div id="wrapper-header">
+
+                <div id="logo" class="col">
+                    <h1><a href="index.html" title="Página Inicial">Pitada Gourmet</a></h1>
+                </div>
+
+                  <div id="search" class="col5 m-col6 m-l-space1 hide-p-down">
+                    <input type="text" placeholder="Buscar Receita">
+                </div>
+                
+                <!-- div/#search -->
+                
+                <div id="top-buttons" class="col">
+                    <div id="modal-search" class="hide-m-up hide-p-up">             
+                    <a href="#" class="btn-modal"><span class="icon-lupa2"></span></a>
+                    </div>
+                    <a id="carrinho" href="carrinho.html" class="icon-carrinho"></a>
+                    <button id="menu-toggle" class="icon-menu3 hide-m-up"></button>
+                </div>
+                <!-- div/#menu-toggle -->
+                 <div class="row hide-m-up hide-p-up">
+                    <div id="abrirModal" class="modal hide col12">
+                        <input type="text" placeholder="Buscar Receita">
+                    </div>
+                 </div>
+            </div>
+            <!-- /div#wrapper-header -->
+
+        </div>
+        <!-- /.row -->
+    </header>
+    <!-- /header#top -->
+
+    <aside id="menu" class="col7 p-col5 m-col3 g-col2 t-space1">
+        <div class="row h-row11">
+            <nav>
+                <ul class="off">
+                    <li><a href="cadastro.html">Cadastro </a></li>
+                    <li><a href="login.html">Login </a></li>
+                    <li><a href="receitas.html">Receitas </a></li>
+                    <li><a href="ingredientes.html">Ingredientes </a></li>
+                </ul>
+
+                <div class="category-ingrediente hide-p-down">
+                    <nav>
+                        <span id="titmenu">Receitas mais vistas</span>
+                        <ul>
+                            <li><a href="receita.html">Pudim de Fambroesa</a></li>
+                            <li><a href="#">Bolo Kit Kat</a></li>
+                            <li><a href="#">Bolinho de Nutela</a></li>
+                            <li><a href="#">Macarrão 4 Queijos</a></li>
+                            <li><a href="#">Risoto de Frango</a></li>
+                            <li><a href="#">Manjar</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+    </aside>
+
+    <div id="content" class="full-container t-space1">
+        <div class="row">
+
+            <article id="receita-content" class="col12">
+                <header class="receita-info">
+
+                    <div class="receita-thumb">
+                        <a href="#" class="category-icon icon-sobremesa"> </a>
+                        <div id="thumb-overlay"></div>
+                        <img src="img/receitas/pudim.jpg" class="" alt="">
+                    </div>
+                    <!-- /.receita-thumb -->
+
+                    <div class="receita-detalhes">
+                        <h2 class="receita-nome">Pudim de Framboesa</h2>
+                        <span class="receita-autor">por: <a href="#">Pedro Augusto</a></span>
+                    </div>
+
+                    <div class="receita-social">
+                        <div>
+                            <button class="icon-amei"></button>
+                            <span>20 mim</span>
+                            <button class="icon-compartilhar"></button>
+                        </div>
+                    </div>
+                    <!-- /.receita-social -->
+
+                    <div id="qt-pessoas">
+                        <div class="row">
+                            <div>
+                                <p class="col">Receita para:</p>
+                                <div id="control" class="col">
+                                    <form>
+                                        <input  type="text" id="counter" value="1">
+                                    </form>
+                                    <div class="botoes">
+                                        <button class="aumentar icon-seta-down"></button>
+                                        <button class="diminuir icon-seta-down"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.qt-pessoas -->
+
+                </header>
+                <!-- /.receita-info -->
+
+                <section id="ingredientes">
+                    <h3>Ingredientes</h3>
+                    <h4>Massa</h4>
+                    <ul>
+                        <li class="row"><span class="quantidade col2" data-medida="">2</span><span class="ingrediente col">latas de leite condensado</span></li>
+                        <li class="row"><span class="quantidade col2" data-medida="ml">700</span><span class="ingrediente col">de leite integral</span></li>
+                        <li class="row"><span class="quantidade col2" data-medida="">8</span><span class="ingrediente col">ovos peneirados</span></li>
+                    </ul>
+                    <h4>Calda</h4>
+                    <ul>
+                        <li class="row"><span class="quantidade col2" data-medida="gr">50</span><span class="ingrediente col">de framboesa</span></li>
+                        <li class="row"><span class="quantidade col2" data-medida="">2</span><span class="ingrediente col">colheres de sopa de açúcar</span></li>
+                    </ul>
+
+                    <div class="row compra first">
+                        <button class="btn comprar-itens">Comprar ingredientes desta receita</button>
+                    </div>
+
+                    <div class="row hide compra second">
+                        <p class="info">Selecione os itens que deseja comprar acima.</p>
+                        <button class="btn inverse cancelar">Cancelar</button>
+                        <a href="carrinho.html" class="cancelar">Comprar Itens Selecionados</a>
+                    </div>
+                </section>
+                <!-- /section#ingredientes -->
+
+
+                <section id="modo-preparo">
+                    <h3>Modo de Preparo</h3>
+                    <ul>
+                        <li class="row">
+                            <span class="col passo-n"></span><span class="passo">Pré aquecer o forno a 180 graus</span>
+                        </li>
+                        <li class="row">
+                            <span class="col passo-n"></span><span class="passo">Penerar os ovos, misturar o leite condensado e o leite, mexendo com um foue</span>
+                        </li>
+                        <li class="row">
+                            <span class="col passo-n"></span><span class="passo">derramar a mistura na forma untada e levar no forno em banho maria por uma hora</span>
+                        </li>
+                        <li class="row">
+                            <span class="col passo-n"></span><span class="passo">Deixar esfriar e levar a geladeira por no mínimo 4 horas</span>
+                        </li>
+                        <li class="row">
+                            <span class="col passo-n"></span><span class="passo">Para a calda leve todos os ingredientes no fogo sem mexer por 5 minutos</span>
+                        </li>
+                        <li class="row">
+                            <span class="col passo-n"></span><span class="passo">Desenformar o pudim só na hora de servir e regar com a calda de framboesa</span>
+                        </li>
+                    </ul>
+                </section>
+                <!-- /section#modo-preparo -->
+            </article>
+        </div>
+
+        <footer id="footer-pincipal">
+            <div class="row">
+
+                <div class="col12">
+                    <div class="col12 m-col4">
+                        <span class="footer-title">Sobre o Pitada Gourmet</span>
+                        <p>É uma plataforma de venda de ingredientes sob medida e consulta de receitas que oferece comodidade e facilidade para execução de pratos.</p>
+                    </div>
+                    <hr class="col12 hide-m-up">
+                    <div class="col12 m-col4">
+                        <nav>
+                            <ul class="off">
+                                <li><a href="cadastro.html">Cadastro </a></li>
+                                <li><a href="login.html">Login </a></li>
+                                <li><a href="receitas.html">Receitas </a></li>
+                                <li><a href="ingredientes.html">Ingredientes </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr class="col12 hide-m-up">
+                    <div class="col12 m-col4">
+                        <span class="footer-title">Contato</span>
+                        <address>
+                        <span>(81) 3927-9233</span><br>
+                        <span>(81) 9 9923-7333</span>
+                    </address>
+
+                        <div id="redes-sociais" class="row">
+                            <a href="#" class="icon-face"></a>
+                            <a href="#" class="icon-twitter"></a>
+                            <a href="#" class="icon-google"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sub-footer" class="col12">
+                    <p>&copy; Copyright 2016 - Pitada gourmet, todos os direitos reservados. </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /#content -->
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+//////////////////////////////////////////////////////
+Importante > A imagem que a parece dentro da máscara
+tem que ter o tamamho descrito no arquivo banner.png
+//////////////////////////////////////////////////////
+
+Obs.1: Criei esses arquivos (receitas.html, categorias.html) como base para você Sunara.
+
+Obs.2: No index.html não tem a div#content, pois a div#content fica ocupando 
+apenas a parte em que o menu não está na tela a partir do ponto de quebra M. Como
+a home tem uma estrutura diferente, a div#content fica sendo utilizada nas paginas iternas e exclusivamente na index.html utiliza-se div#home-content
+
+Obs.3: Verifiquem e apliquem a identificação(#,id) na tag body para evitar conflitos nas outras páginas. <body id="nome-da-pagina-que-voce-esta-fomatando"></body>
+
+Obs.4: Comece a escrever o css apartir da linha 419, evitem sobrescrever ou alterar as regras que já foram escritas.
+
+Obs.5: Para evitar que sua formatção entre em conflito com a de outro desenvolvedor,
+comente no início da formatação o nome da página que está formatando e no início de seus seletores utilize sempre: body#nome-da-pagina-que-voce-esta-fomatando. Como idenrificado na tag body.
+
+Obs.5: CASO PERCEBA UM ERRO NA PARTE DE OUTRO DESENVOLVEDOR COMUNIQUE-O EM VEZ DE TENTAR RESOLVER SOZINHO(a), POIS ESSE ERRO PODE ESTÁ ATRELADO A GRANDE PARTE DE SEU CÓDIGO E CAUSAR UM PROBLEMA PIOR.
+
+Páginas por responsável:
+
+Kadjina
+- Home !Destaque não é uma pagina
+- Cadastro
+- Login
+
+Pedro
+- Vista da Receita > Dentro de uma receita
+- Vista da Categoria > Dentro de uma categoria
+- Carrinho
+
+Sunara
+- Lista de Receitas > Listagem de Receitas - receitas.html
+- Lista de Categorias > Listagem de Categorias - categorias.html
+- Livro de receitas

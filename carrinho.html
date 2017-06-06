@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="ico.png" type="image/png">
+</head>
+
+<body id="ingrediente" class="carrinho">
+    <header id="top" class="full-container">
+        <div class="row h-row1">
+            <div id="wrapper-header">
+                <div id="logo" class="col">
+                    <h1><a href="index.html" title="Página Inicial">Pitada Gourmet</a></h1></div>
+                <div id="search" class="col5 m-col6 m-l-space1 hide-p-down">
+                    <input type="text" placeholder="Buscar Receita">
+                </div>
+                <!-- div/#search -->
+                <div id="top-buttons" class="col">
+                    <div id="modal-search" class="hide-m-up hide-p-up"><a href="#" class="btn-modal"><span class="icon-lupa2"></span></a></div>
+                    <a id="carrinho" href="carrinho.html" class="icon-carrinho"></a>
+                    <button id="menu-toggle" class="icon-menu3 hide-m-up"></button>
+                </div>
+                <!-- div/#menu-toggle -->
+                <div class="row hide-m-up hide-p-up">
+                    <div id="abrirModal" class="modal hide col12">
+                        <input type="text" placeholder="Buscar Receita">
+                    </div>
+                </div>
+            </div>
+            <!-- /div#wrapper-header -->
+        </div>
+        <!-- /.row -->
+    </header>
+    <!-- /header#top -->
+    <aside id="menu" class="col7 p-col5 m-col3 g-col2 t-space1">
+        <div class="row h-row11">
+            <nav>
+                <ul class="off">
+                    <li><a href="cadastro.html">Cadastro </a></li>
+                    <li><a href="login.html">Login </a></li>
+                    <li><a href="receitas.html">Receitas </a></li>
+                    <li><a href="ingredientes.html">Ingredientes </a></li>
+                </ul>
+                <div class="category-ingrediente hide-p-down">
+                    <nav><span id="titmenu">Receitas mais vistas</span>
+                        <ul>
+                            <li><a href="receita.html">Pudim de Fambroesa</a></li>
+                            <li><a href="#">Bolo Kit Kat</a></li>
+                            <li><a href="#">Bolinho de Nutela</a></li>
+                            <li><a href="#">Macarrão 4 Queijos</a></li>
+                            <li><a href="#">Risoto de Frango</a></li>
+                            <li><a href="#">Manjar</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+    </aside>
+    <div id="content" class="full-container t-space1">
+        <div class="row">
+            <article id="category-content" class="col12 t-space2">
+                <header class="category-info">
+                    <div class="category-thumb">
+                        <a href="#" class="category-icon icon-carrinho"> </a>
+                        <!-- <div id="thumb-overlay"></div><img src="img/ingredientes/temperos.jpg" class="" alt=""> --></div>
+                    <!-- /.receita-thumb -->
+                    <div class="carrinho-detalhes">
+                        <h2 class="category-nome">Carrinho</h2></div>
+                </header>
+                <!-- /.category-info -->
+                <section id="ingrediente-list" class="t-space1">
+                    <ul>
+                        <li class="row">
+                            <div class="ingrediente">
+                                <div class="nome-ingrediente">
+                                    <h2>Cebola em Pó<span class="icon-editar"></span></h2>
+                                </div>
+                                <div class="add-ingrediente">
+                                    <form class="row" action="">
+                                        <p>Adicione a quantidade em gramas</p>
+                                        <br>
+                                        <input class="col6" mame="total" value="100" min="1" type="number">
+                                        <input class="col6" name="total" value="2.59" disabled="" type="text">
+
+                                        <button class="col12 remover" type="submit"> <span class="icon-lixeira"></span>Remover do Carrinho</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="ingrediente">
+                                <div class="nome-ingrediente">
+                                    <h2>Cominho Puro<span class="icon-editar"></span></h2>
+                                </div>
+                                <div class="add-ingrediente">
+                                    <form class="row" action="">
+                                        <p>Adicione a quantidade em gramas</p>
+                                        <br>
+                                        <input class="col6" mame="total" value="100" min="1" type="number">
+                                        <input class="col6" name="total" value="2.85" disabled="" type="text">
+
+                                        <button class="col12 remover" type="submit"> <span class="icon-lixeira"></span>Remover do Carrinho</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="ingrediente">
+                                <div class="nome-ingrediente">
+                                    <h2>Fumaça em Pó<span class="icon-editar"></span></h2>
+                                </div>
+                                <div class="add-ingrediente">
+                                    <form class="row" action="">
+                                        <p>Adicione a quantidade em gramas</p>
+                                        <br>
+                                        <input class="col6" mame="total" value="100" min="1" type="number">
+                                        <input class="col6" name="total" value="1.99" disabled="" type="text">
+
+                                        <button class="col12 remover" type="submit"> <span class="icon-lixeira"></span>Remover do Carrinho</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="ingrediente">
+                                <div class="nome-ingrediente">
+                                    <h2>Páprica Picante<span class="icon-editar"></span></h2>
+                                </div>
+                                <div class="add-ingrediente">
+                                    <form class="row" action="">
+                                        <p>Adicione a quantidade em gramas</p>
+                                        <br>
+                                        <input class="col6" mame="total" value="100" min="1" type="number">
+                                        <input class="col6" name="total" value="1.49" disabled="" type="text">
+
+                                        <button class="col12 remover" type="submit"> <span class="icon-lixeira"></span>Remover do Carrinho</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <!-- /#ingrediente-list -->
+                
+                <section id="info-compra" class="row">
+                    <div class="col12 m-col4">
+                        <p><span>Valor total:</span><span class="valor-total">R$ 00,00</span></p>
+                    </div>
+                    <div class="col12 m-col8">
+                        <div class="row">
+                            <div class="col12 p-col6"><a href="compra.html">Comprar</a></div>
+                            <div class="col12 p-col6"><a href="ingredientes.html">Continuar Comprando</a></div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <!-- /#info-compra -->
+        </div>
+        <footer id="footer-pincipal">
+            <div class="row">
+                <div class="col12">
+                    <div class="col12 m-col4"><span class="footer-title">Sobre o Pitada Gourmet</span>
+                        <p>É uma plataforma de venda de ingredientes sob medida e consulta de receitas que oferece comodidade e facilidade para execução de pratos.</p>
+                    </div>
+                    <hr class="col12 hide-m-up">
+                    <div class="col12 m-col4">
+                        <nav>
+                            <ul class="off">
+                                <li><a href="cadastro.html">Cadastro </a></li>
+                                <li><a href="login.html">Login </a></li>
+                                <li><a href="receitas.html">Receitas </a></li>
+                                <li><a href="ingredientes.html">Ingredientes </a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr class="col12 hide-m-up">
+                    <div class="col12 m-col4"><span class="footer-title">Contato</span><address><span>(81) 3927-9233</span><br><span>(81) 9 9923-7333</span></address>
+                        <div id="redes-sociais" class="row">
+                            <a href="#" class="icon-face"></a>
+                            <a href="#" class="icon-twitter"></a>
+                            <a href="#" class="icon-google"></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="sub-footer" class="col12">
+                    <p>&copy; Copyright 2016 - Pitada gourmet, todos os direitos reservados. </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /#content -->
+    <div id="modal-info"></div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
